@@ -1,8 +1,10 @@
+# 5 - Magic 8 Bit
+
 from microbit import *
 # we're also going to import pythons random number generator
 import random
 
-# This creates a list storing all of the answers
+# this is a list storing all of the answers
 answers = [
 	"Yes",
 	"It is decidedly so",
@@ -19,5 +21,5 @@ while True:
 		answer = random.choice(answers) # pick a random answer from the list
 		display.scroll(answer, wait=True)
 	else:
-		# Image.TARGET sort of looks like a ball.
+		# this sort of looks like a ball.
 		display.show(Image.TARGET)

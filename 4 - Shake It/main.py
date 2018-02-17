@@ -1,3 +1,5 @@
+# 4 - Shake It
+
 from microbit import *
 
 # On the micro:bit board, it has a build in accelerometer. This can measure acceleration in 3 directions: x, y, z. It can also recognise gestures which is when the acceleration follows a certain pattern.

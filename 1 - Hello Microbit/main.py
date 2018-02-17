@@ -1,3 +1,5 @@
+# 1 - Hello micro:bit
+
 # This line tells python that we want to import all of the microbit code modules for use.
 from microbit import *
 
